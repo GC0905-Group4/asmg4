@@ -1,3 +1,0 @@
-1. Create repostoires
-2. Commit, push
-3. Pull 
