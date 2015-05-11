@@ -9,6 +9,7 @@ namespace asmg4.Models
     {
         public string maLoai { get; set; }
         public string tenLoai { get; set; }
+        public virtual ICollection<Sach> sach { get; set; }
 
         public LoaiSach(string maLoai, string tenLoai)
         {

@@ -14,6 +14,10 @@ namespace asmg4.Models
         public string maTG { get; set; }
         public string maNXB { get; set; }
 
+        public virtual LoaiSach loaiSach { get; set; }
+        public virtual NhaXB nhaXB { get; set; }
+        public virtual TacGia tacGia { get; set; }
+
         public Sach(string maSach, string maLoai, string tenSach, string tomTat, string maTG, string maNXB)
         {
             this.maSach = maSach;

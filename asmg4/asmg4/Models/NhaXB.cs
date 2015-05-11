@@ -12,6 +12,7 @@ namespace asmg4.Models
         public string diaChi { get; set; }
         public string sdt { get; set; }
         public string email { get; set; }
+        public virtual ICollection<Sach> sach { get; set; }
 
         public NhaXB(string maNXB, string tenNXB, string diaChi, string sdt, string email)
         {

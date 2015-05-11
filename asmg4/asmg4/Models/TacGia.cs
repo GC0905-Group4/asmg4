@@ -13,6 +13,8 @@ namespace asmg4.Models
         public string sdt { get; set; }
         public string email { get; set; }
 
+        public virtual ICollection<Sach> sach { get; set; }
+
         public TacGia(string maTG, string tenTG, string diaChi, string sdt, string email)
         {
             this.maTG = maTG;
