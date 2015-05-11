@@ -27,5 +27,6 @@ namespace asmg4.Models
             this.maTG = maTG;
             this.maNXB = maNXB;
         }
+        public Sach();
     }
 }
