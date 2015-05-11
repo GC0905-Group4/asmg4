@@ -14,6 +14,9 @@ namespace asmg4.DAL
             var sach = new List<Sach>
             {
             new Sach{maSach="Nino",maLoai="Olivetto",tenSach="???", tomTat="???", maTG="???", maNXB="???"},
+            new Sach{maSach="a",maLoai="Olivetto",tenSach="???", tomTat="???", maTG="???", maNXB="???"},
+            new Sach{maSach="b",maLoai="Olivetto",tenSach="???", tomTat="???", maTG="???", maNXB="???"},
+            new Sach{maSach="c",maLoai="Olivetto",tenSach="???", tomTat="???", maTG="???", maNXB="???"},
             };
 
             sach.ForEach(s => context.sach.Add(s));
