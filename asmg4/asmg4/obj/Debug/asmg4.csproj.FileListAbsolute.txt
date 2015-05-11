@@ -24,3 +24,4 @@ D:\FileHoc\asm4\asmg4\asmg4\bin\Newtonsoft.Json.xml
 D:\FileHoc\asm4\asmg4\asmg4\obj\Debug\asmg4.csprojResolveAssemblyReference.cache
 D:\FileHoc\asm4\asmg4\asmg4\obj\Debug\asmg4.dll
 D:\FileHoc\asm4\asmg4\asmg4\obj\Debug\asmg4.pdb
+C:\Users\PC\Desktop\asmg4\asmg4\asmg4\obj\Debug\asmg4.csprojResolveAssemblyReference.cache
