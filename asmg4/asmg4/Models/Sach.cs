@@ -5,7 +5,7 @@ using System.Web;
 
 namespace asmg4.Models
 {
-    public class Book
+    public class Sach
     {
         public string maSach { get; set; }
         public string maLoai{ get; set;}
@@ -14,7 +14,7 @@ namespace asmg4.Models
         public string maTG { get; set; }
         public string maNXB { get; set; }
 
-        public Book(string maSach, string maLoai, string tenSach, string tomTat, string maTG, string maNXB)
+        public Sach(string maSach, string maLoai, string tenSach, string tomTat, string maTG, string maNXB)
         {
             this.maSach = maSach;
             this.maLoai = maLoai;
